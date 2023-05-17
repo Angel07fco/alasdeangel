@@ -18,6 +18,7 @@ const pedidoSchema = new Schema({
     tematica: String,
     details: String,
     modeloFoto: String,
+    extras: Number,
     total: Number,
     fechaEntrega: String,
     horaEntrega: String,
